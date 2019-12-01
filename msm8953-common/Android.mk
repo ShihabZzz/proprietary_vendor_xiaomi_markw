@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter mido tissot,$(TARGET_DEVICE)),)
+ifeq ($(TARGET_DEVICE),markw)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libsdm-disp-vndapis
