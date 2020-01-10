@@ -261,7 +261,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/vendor/lib64/hw/activity_recognition.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/activity_recognition.msm8953.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/hw/android.hardware.gnss@2.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.0-impl-qti.so \
-    vendor/xiaomi/markw/proprietary/vendor/lib64/hw/android.hardware.keymaster@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.keymaster@3.0-impl.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/hw/audio.bluetooth_qti.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.bluetooth_qti.default.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/hw/fingerprint.fpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.fpc.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/hw/fingerprint.goodix.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix.so \
@@ -339,9 +338,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libidl.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libizat_client_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libizat_client_api.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libizat_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libizat_core.so \
-    vendor/xiaomi/markw/proprietary/vendor/lib64/libkeymaster_messages-v27.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_messages-v27.so \
-    vendor/xiaomi/markw/proprietary/vendor/lib64/libkeymaster_portable-v27.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_portable-v27.so \
-    vendor/xiaomi/markw/proprietary/vendor/lib64/libkeymaster_staging-v27.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_staging-v27.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/liblbs_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblbs_core.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-glnext.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-qcom.so \
@@ -418,8 +414,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libsensor_user_cal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_user_cal.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libsettings.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsettings.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libslimclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libslimclient.so \
-    vendor/xiaomi/markw/proprietary/vendor/lib64/libsoftkeymaster-v27.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoftkeymaster-v27.so \
-    vendor/xiaomi/markw/proprietary/vendor/lib64/libsoftkeymasterdevice-v27.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoftkeymasterdevice-v27.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libspl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspl.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libStDrvInt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libStDrvInt.so \
