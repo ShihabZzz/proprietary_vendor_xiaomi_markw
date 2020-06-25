@@ -995,7 +995,6 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     ims \
     IWlanService \
-    libbtconfigstore \
     libgpustats \
     libloc_api_v02 \
     libqmiservices \
